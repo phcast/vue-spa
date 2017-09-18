@@ -8,6 +8,11 @@ let routes = [
     {
         path: '/about',
         component: require('./components/About')
+    },
+    {
+        name: 'posts',
+        path: '/posts/:id',
+        component: require('./components/Post')
     }
 ];
 
