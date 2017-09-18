@@ -1,11 +1,12 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3">
+            <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">注册用户</div>
+                    <div class="panel-heading"><h4>激活账户</h4></div>
+
                     <div class="panel-body">
-                        <register-form></register-form>
+                        <stong>激活！！！！</stong>
                     </div>
                 </div>
             </div>
@@ -14,11 +15,9 @@
 </template>
 
 <script>
-    import RegisterForm from './RegisterForm.vue';
-
     export default {
-        components: {
-            RegisterForm
+        mounted() {
+            console.log('Component mounted.')
         }
     }
 </script>

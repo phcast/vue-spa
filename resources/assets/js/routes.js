@@ -13,6 +13,16 @@ let routes = [
         name: 'posts',
         path: '/posts/:id',
         component: require('./components/posts/Post.vue')
+    },
+    {
+        name: 'register',
+        path: '/register',
+        component: require('./components/register/Register.vue')
+    },
+    {
+        name: 'confirm',
+        path: '/confirm',
+        component: require('./components/confirm/Email.vue')
     }
 ];
 
