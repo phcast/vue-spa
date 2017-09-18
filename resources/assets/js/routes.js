@@ -3,16 +3,16 @@ import VueRouter from 'vue-router';
 let routes = [
     {
         path: '/',
-        component: require('./components/Home')
+        component: require('./components/pages/Home.vue')
     },
     {
         path: '/about',
-        component: require('./components/About')
+        component: require('./components/pages/About.vue')
     },
     {
         name: 'posts',
         path: '/posts/:id',
-        component: require('./components/Post')
+        component: require('./components/posts/Post.vue')
     }
 ];
 
